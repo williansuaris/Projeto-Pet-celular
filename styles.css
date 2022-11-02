@@ -1,0 +1,142 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #98909c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 500px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, .0, .0, .0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+@media screen and (max-width: 900px) {
+    img {
+        position: absolute;
+        width: 354px;
+        height: 250.24px;
+        margin: 215.72px 22px 334.05px 14px;
+
+    }
+
+    h1 {
+        position: absolute;
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        margin: 489px 63px 258px 80px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        width: 232px;
+        height: 37px;
+        margin: 532px 83px 0 1px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    }
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        position: absolute;
+        width: 239px;
+        height: 64px;
+        margin: 603px 75px 133px 76px;
+        border-radius: 20.5px;
+        border: none;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    }
+
+
+}
